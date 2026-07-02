@@ -14,14 +14,6 @@ display:flex;
 justify-content:center;
 align-items:center;
 min-height:100vh;
-
-/* 🔥 cinematic entry */
-animation: bgFade 1.2s ease;
-}
-
-@keyframes bgFade{
-from{opacity:0;}
-to{opacity:1;}
 }
 
 .card{
@@ -29,18 +21,11 @@ width: 560px;
 background: linear-gradient(145deg,#141414,#070707);
 border-radius: 22px;
 padding: 25px;
-box-shadow: 0 0 50px black;
+box-shadow: 0 0 40px black;
 border: 1px solid #333;
 position: relative;
 overflow:hidden;
-
-/* 🔥 cinematic zoom */
-animation: cardIn 1s ease;
-}
-
-@keyframes cardIn{
-from{transform:scale(0.85); opacity:0;}
-to{transform:scale(1); opacity:1;}
+animation: fadeIn 1.2s ease;
 }
 
 .card::before{
@@ -60,7 +45,11 @@ animation: glowMove 6s linear infinite;
 100%{transform:rotate(360deg);}
 }
 
-/* 🔥 FIRE HEADER */
+@keyframes fadeIn{
+from{opacity:0; transform:scale(0.95);}
+to{opacity:1; transform:scale(1);}
+}
+
 .fire-header{
 margin-bottom:15px;
 padding:12px;
@@ -131,14 +120,7 @@ color:#ddd;
 margin:5px 0;
 }
 
-.profile img{
-width:120px;
-height:120px;
-border-radius:50%;
-border:3px solid gold;
-object-fit:cover;
-margin-top:15px;
-}
+/* ❌ IMAGE REMOVED - NO PROFILE PICTURE */
 
 .section{
 margin-top:15px;
@@ -169,6 +151,12 @@ height:10px;
 background:gold;
 }
 
+.qr img{
+margin-top:10px;
+border-radius:10px;
+border:2px solid #444;
+}
+
 .small{
 font-size:12px;
 color:#888;
@@ -194,27 +182,6 @@ animation: fireMove 1.5s linear infinite;
 box-shadow: 0 0 18px #ff3b00;
 }
 
-/* 🔥 QR UFC STYLE */
-.qr-box{
-display:flex;
-justify-content:center;
-margin-top:10px;
-}
-
-.qr-frame{
-padding:14px;
-border-radius:14px;
-border:2px solid gold;
-background:#111;
-box-shadow:0 0 20px rgba(255,215,0,0.4);
-animation: qrGlow 2s infinite alternate;
-}
-
-@keyframes qrGlow{
-from{box-shadow:0 0 10px rgba(255,215,0,0.3);}
-to{box-shadow:0 0 25px rgba(255,215,0,0.8);}
-}
-
 </style>
 </head>
 
@@ -236,9 +203,7 @@ to{box-shadow:0 0 25px rgba(255,215,0,0.8);}
 
 <div class="stars">★★★★★ محترف</div>
 
-<div class="profile">
-<img src="https://i.imgur.com/8Km9tLL.png">
-</div>
+<!-- ❌ PROFILE IMAGE REMOVED -->
 
 <div class="info">العمر: 18 سنة</div>
 <div class="info">الطول: 184 سم</div>
@@ -274,17 +239,10 @@ to{box-shadow:0 0 25px rgba(255,215,0,0.8);}
 
 <div class="section qr">
 <h3>QR CODE</h3>
-
-<div class="qr-box">
-<div class="qr-frame">
 <img src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=https://r66vfcbwh9-alt.github.io/Murtada/">
-</div>
-</div>
-
 <div class="small" style="text-align:center;margin-top:8px;">
 امسح الكود لفتح البطاقة
 </div>
-
 </div>
 
 <div class="section">
