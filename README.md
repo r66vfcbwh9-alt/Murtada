@@ -190,7 +190,7 @@ box-shadow: 0 0 18px #ff3b00;
 <div class="card">
 
 <div class="fire-header">
-أحد تلاميذ الكابتن سجاد البديري
+أحد تلاميذ الكابتن سجاد البديري لاتتعرض لهذا الشخص لان يمكنه الدفاع عن نفسه ضد اكثر من 5 اشخاص
 </div>
 
 <div class="badge">UFC ELITE FIGHTER</div>
@@ -198,16 +198,16 @@ box-shadow: 0 0 18px #ff3b00;
 <h1>مرتضى فراس عضيم</h1>
 
 <div class="nickname">
-اللقب: <span class="flame-name">غضب 🔥</span>
+اللقب: <span class="flame-name">غضب🔥</span>
 </div>
 
 <div class="stars">★★★★★ محترف</div>
 
 <!-- ❌ PROFILE IMAGE REMOVED -->
 
-<div class="info">العمر: 18 سنة</div>
-<div class="info">الطول: 184 سم</div>
-<div class="info">الوزن: 66 كغم</div>
+<div class="info">العمر: 18سنة</div>
+<div class="info">الطول: 184سم</div>
+<div class="info">الوزن: 66كغم</div>
 <div class="info">الرياضة: مواي تاي 🥊</div>
 <div class="info">الأكاديمية: بانكوك</div>
 
@@ -223,47 +223,7 @@ box-shadow: 0 0 18px #ff3b00;
 
 <div class="section">
 <h3>نبذة احترافية</h3>
+
+مقاتل يمتلك أسلوب هجومي سريع احذر منه
+
 <div class="bio">
-مقاتل مواي تاي يمتلك أسلوب هجومي سريع يعتمد على الضغط والسيطرة داخل الحلبة.  
-يُعرف بلقب "غضب" لأسلوبه القتالي القوي والانفجاري.  
-يمتلك مستوى متقدم في المواي تاي مع قدرة عالية على التكيف تحت الضغط.
-</div>
-</div>
-
-<div class="section">
-<h3>الإنجازات 🏆</h3>
-<p>4 بطولات بابل</p>
-<p>2 الناصرية</p>
-<p>1 واسط</p>
-</div>
-
-<div class="section qr">
-<h3>QR CODE</h3>
-<img src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=https://r66vfcbwh9-alt.github.io/Murtada/">
-<div class="small" style="text-align:center;margin-top:8px;">
-امسح الكود لفتح البطاقة
-</div>
-</div>
-
-<div class="section">
-<h3>التواصل</h3>
-<p>Instagram: _9w7o</p>
-<p>TikTok: _9w7o</p>
-</div>
-
-<div class="fire-line">
-
-✔ يمتلك خبرة في مواقف صعبة ويتعامل مع الضغط بهدوء  
-✔ يمكنه بكل سهولة الدفاع عن نفسه عند الحاجة  
-✔ يمتلك حضور قوي وثقة عالية بالنفس  
-
-</div>
-
-<div class="footer">
-ELITE FIGHTER PROFILE • MUAY THAI
-</div>
-
-</div>
-
-</body>
-</html>
